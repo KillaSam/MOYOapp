@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    outline: 0;
+    font-size: 20px;
+}
+
+html{
+    background-color: #9b9b9b35;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+input{
+    width: 25px;
+    border: 0; 
+    border-bottom: 2px solid rgba(177, 177, 0, 0.727);
+}
+
+img{
+    height: 100px;
+    position: absolute;
+}
+.sum{
+    text-align: center;
+}
+
+.description{
+    text-align: center;
+    padding-top: 32px;
+}
+
+.arrow{
+    text-align: center;
+    font-size: 40px;
+}
+.percent{
+    display: flex;
+    width: 99vw;
+    justify-content: space-around;
+}
+
+.main-type{
+    margin: 20px 42vw;
+    padding: 30px 0 30px 30px;
+    width: 200px;
+    font-size: 25px;
+    border: 0;
+    box-shadow: 0 17px 50px 0 rgba(0,0,0,.19), 0 12px 15px 0 rgba(0,0,0,.24);
+    border-radius: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+.dop_wrapper, .other_wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 400px;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 2px 7px 1px rgba(0,0,0,.3);
+    border-radius: 5px;
+}
+.dop20wrapper{
+    display: flex;
+    .dop20{
+        padding-left: 20px;
+    }
+}
+
+.dop30wrapper{
+    display: flex;
+    .dop30{
+        padding-left: 20px;
+    }
+}
+
+.dop40wrapper{
+    display: flex;
+    .dop40{
+        padding-left: 20px;
+    }
+}
+.extra_wrapper{
+    display: flex;
+    .extraZ{
+        padding-left: 20px;
+    }
+}
+.moyo_wrapper{
+    display: flex;
+    .moyoZ{
+        padding-left: 20px;
+    }
+}
+.screen_wrapper{
+    display: flex;
+    .screen{
+        padding-left: 20px;
+    }
+}
+
+.sum_dop20wrapper{
+    display: flex;
+    .sum_dop20{
+        padding-left: 20px;
+    }
+}
+
+.sum_dop30wrapper{
+    display: flex;
+    .sum_dop30{
+        padding-left: 20px;
+    }
+}
+
+.sum_dop40wrapper{
+    display: flex;
+    .sum_dop40{
+        padding-left: 20px;
+    }
+}
+.sum_extraZwrapper{
+    display: flex;
+    .sum_extraZ{
+        padding-left: 20px;
+    }
+}
+.sum_moyoZwrapper{
+    display: flex;
+    .sum_moyoZ{
+        padding-left: 20px;
+    }
+}
+.sum_screenwrapper{
+    display: flex;
+    .sum_screen{
+        padding-left: 20px;
+    }
+}
+
+.percent.next{
+    margin-top: 30px;
+}

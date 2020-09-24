@@ -153,8 +153,11 @@ input::-webkit-inner-spin-button {
 }
 
 @media screen and (max-width: 1366px){
+    *{
+        font-size: 17px;
+    }
     .dop_wrapper, .other_wrapper{
-        width: 350px;
-        height: 250px;
+        width: 300px;
+        height: 200px;
     }
 }

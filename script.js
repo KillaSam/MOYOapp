@@ -55,6 +55,10 @@ function generate(){
         document.querySelector('.sum_moyoZ').innerHTML = parseInt(mainProduct.value)+parseInt(document.querySelector('.moyoZ').innerHTML);
         document.querySelector('.sum_screen').innerHTML = parseInt(mainProduct.value)+parseInt(document.querySelector('.screen').innerHTML);
     }
+    if(mainProduct.value !== ''){
+        document.querySelector('.arrow').style.display = "none";
+        document.querySelector('.description').style.display = "none";
+    }
 }
 
 function changePer(e, p) {

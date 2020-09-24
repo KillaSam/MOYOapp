@@ -54,6 +54,8 @@ function generate(){
         document.querySelector('.sum_extraZ').innerHTML = parseInt(mainProduct.value)+parseInt(document.querySelector('.extraZ').innerHTML);
         document.querySelector('.sum_moyoZ').innerHTML = parseInt(mainProduct.value)+parseInt(document.querySelector('.moyoZ').innerHTML);
         document.querySelector('.sum_screen').innerHTML = parseInt(mainProduct.value)+parseInt(document.querySelector('.screen').innerHTML);
+        document.querySelector('.sum_sale5').innerHTML = mainProduct.value-Math.round(mainProduct.value*5/100);
+        document.querySelector('.sum_sale10').innerHTML = mainProduct.value-Math.round(mainProduct.value*10/100);
     }
     if(mainProduct.value !== ''){
         document.querySelector('.arrow').style.display = "none";

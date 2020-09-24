@@ -151,3 +151,10 @@ input::-webkit-inner-spin-button {
 .percent.next{
     margin-top: 30px;
 }
+
+@media screen and (max-width: 1366px){
+    .dop_wrapper, .other_wrapper{
+        width: 350px;
+        height: 250px;
+    }
+}
